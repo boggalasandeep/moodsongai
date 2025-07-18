@@ -120,4 +120,4 @@ if st.button("🎵 Recommend Songs"):
 
 # Footer
 st.markdown("---")
-st.markdown("<footer>Built with ❤️ by Sandeep</footer>", unsafe_allow_html=True)
+st.markdown("<footer>Built with ❤️ by Sandeep Boggala</footer>", unsafe_allow_html=True)
