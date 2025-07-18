@@ -110,7 +110,7 @@ if st.button("🎵 Recommend Songs"):
                 <div class="song-card">
                     <h4>{idx}. {song['name']}</h4>
                     <p>🎤 Artist: <strong>{song['artist']}</strong></p>
-                    <p><a class="spotify-link" href="{song['url']}" target="_blank">▶️ Song vinu ra puka</a></p>
+                    <p><a class="spotify-link" href="{song['url']}" target="_blank">▶️ listen to spotify</a></p>
                 </div>
                 """, unsafe_allow_html=True)
         else:
