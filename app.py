@@ -3,7 +3,7 @@ from sentiment import detect_mood
 from spotify_api import get_songs_by_mood
 
 # Streamlit Page Config
-st.set_page_config(page_title="🎧 Moodify – AI Song Recommender", layout="centered", page_icon="🎵")
+st.set_page_config(page_title="🎧 NE Mood ela vundhi Mawa", layout="centered", page_icon="🎵")
 
 # ----- Custom Dark Mode CSS -----
 st.markdown("""
@@ -110,7 +110,7 @@ if st.button("🎵 Recommend Songs"):
                 <div class="song-card">
                     <h4>{idx}. {song['name']}</h4>
                     <p>🎤 Artist: <strong>{song['artist']}</strong></p>
-                    <p><a class="spotify-link" href="{song['url']}" target="_blank">▶️ Listen on Spotify</a></p>
+                    <p><a class="spotify-link" href="{song['url']}" target="_blank">▶️ Song vinu ra puka</a></p>
                 </div>
                 """, unsafe_allow_html=True)
         else:
