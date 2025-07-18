@@ -3,7 +3,7 @@ from sentiment import detect_mood
 from spotify_api import get_songs_by_mood
 
 # Streamlit Page Config
-st.set_page_config(page_title="🎧 NE Mood ela vundhi Mawa", layout="centered", page_icon="🎵")
+st.set_page_config(page_title="🎧 Moodify – AI Song Recommender", layout="centered", page_icon="🎵")
 
 # ----- Custom Dark Mode CSS -----
 st.markdown("""
@@ -85,7 +85,7 @@ footer {
 """, unsafe_allow_html=True)
 
 # Title
-st.title("🎧 Moodify – AI Song Recommender")
+st.title("🎧 Ne Mood Ela Vundhi Mawa")
 st.markdown("#### _Let your feelings choose your playlist._")
 
 # Language dropdown
